@@ -2,15 +2,6 @@
 
 void segitiga() {
 
-    // persegi panjang putih
-    glBegin(GL_QUADS);
-    glColor3f(1.0, 1.0, 1.0);
-    glVertex2f(0.80, 0.30);
-    glVertex2f(0.80, 0.50);
-    glVertex2f(0.10, 0.50);
-    glVertex2f(0.10, 0.30);
-    glEnd();
-
     // persegi panjang merah
     glBegin(GL_QUADS);
     glColor3f(1.0, 0.0, 0.0);
@@ -18,6 +9,15 @@ void segitiga() {
     glVertex2f(0.10, 0.70);
     glVertex2f(0.80, 0.70);
     glVertex2f(0.80, 0.50);
+    glEnd();
+
+    // persegi panjang putih
+    glBegin(GL_QUADS);
+    glColor3f(1.0, 1.0, 1.0);
+    glVertex2f(0.80, 0.30);
+    glVertex2f(0.80, 0.50);
+    glVertex2f(0.10, 0.50);
+    glVertex2f(0.10, 0.30);
     glEnd();
 
 
